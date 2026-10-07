@@ -39,9 +39,9 @@
 
 ## 🖼️ 使用截图
 
-![Music-Pauser使用截图3_compressed.jpg](https://image.940304.xyz/i/2026/09/10/6aa23d88ad129.jpg)
-![Music-Pauser使用截图1_compressed.jpg](https://image.940304.xyz/i/2026/09/10/6aa23d88acd45.jpg)
-![Music-Pauser使用截图2_compressed.jpg](https://image.940304.xyz/i/2026/09/10/6aa23d88ad0fe.jpg)
+![Music-Pauser使用截图3_compressed.jpg](./screenshots/6aa23d88ad129.jpg)
+![Music-Pauser使用截图1_compressed.jpg](./screenshots/6aa23d88acd45.jpg)
+![Music-Pauser使用截图2_compressed.jpg](./screenshots/6aa23d88ad0fe.jpg)
 
 ## ⚙️ 工作原理
 
