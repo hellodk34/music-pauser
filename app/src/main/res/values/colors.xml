@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F5F5F5</color>
+    <color name="accent_play">#1DB954</color>
+    <color name="accent_pause">#FF9800</color>
+    <color name="accent_disabled">#BDBDBD</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="ic_launcher_background">#1DB954</color>
+</resources>

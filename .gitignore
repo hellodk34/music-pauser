@@ -1,0 +1,23 @@
+# Gradle / build
+.gradle
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Local configuration (machine-specific)
+/local.properties
+
+# Signing key & secrets (do NOT commit)
+/keystore/
+keystore.properties
+
+# IDE
+.idea
+*.iml
+.DS_Store
+
+# Build artifacts
+*.apk
+*.aab

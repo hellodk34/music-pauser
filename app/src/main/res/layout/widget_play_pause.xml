@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/widget_bg"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/not_playing"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeMaxTextSize="14sp" />
+
+    <TextView
+        android:id="@+id/widget_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#B3FFFFFF"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="9sp"
+        android:autoSizeMaxTextSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/widget_prev"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_round_side"
+            android:src="@drawable/ic_prev"
+            android:scaleType="center" />
+
+        <ImageButton
+            android:id="@+id/widget_play"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_round_play"
+            android:src="@drawable/ic_play"
+            android:scaleType="center" />
+
+        <ImageButton
+            android:id="@+id/widget_next"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_round_side"
+            android:src="@drawable/ic_next"
+            android:scaleType="center" />
+    </LinearLayout>
+
+</LinearLayout>

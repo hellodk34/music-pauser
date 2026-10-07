@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音乐暂停器</string>
+    <string name="not_playing">音乐未播放</string>
+    <string name="not_playing_hint">打开音乐软件开始播放后，这里会出现控制按钮</string>
+    <string name="playing">正在播放</string>
+    <string name="paused">已暂停</string>
+    <string name="unknown_source">检测到有音乐在播放，但未识别播放源</string>
+    <string name="enable_notification">授予通知使用权</string>
+    <string name="notification_hint">本应用需要“通知使用权”权限，才能读取音乐播放状态并控制播放/暂停</string>
+    <string name="widget_label">音乐暂停器</string>
+    <string name="previous">上一首</string>
+    <string name="next">下一首</string>
+    <string name="play_pause">播放/暂停</string>
+    <string name="music_source">当前音乐源: %1$s</string>
+    <string name="music_source_none">当前音乐源: 无</string>
+    <string name="compat_no_info">按键控制模式 · 无法显示歌曲信息</string>
+    <string name="compat_mode_title">本设备不支持“通知使用权”，已自动切换为按键控制模式：可控制播放/暂停、上一首/下一首，但无法显示歌曲名与音乐源。</string>
+    <string name="compat_mode_short">按键控制模式</string>
+    <string name="compat_toggle_hint">点击按钮切换播放/暂停</string>
+    <string name="overlay_enable">启用悬浮按键</string>
+    <string name="overlay_request_permission">启用悬浮按键（需先授权）</string>
+    <string name="overlay_disable">关闭悬浮按键</string>
+    <string name="auto_play">开机自动播放音乐</string>
+    <string name="overlay_channel">悬浮控制</string>
+    <string name="overlay_running">悬浮按键已启用，点击切换播放/暂停，长按打开应用，拖动可移动位置</string>
+    <string name="copyright">© 2026 developed by hellodk.cn &amp; DeepSeek</string>
+</resources>
